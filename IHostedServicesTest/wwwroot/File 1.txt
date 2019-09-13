@@ -1,0 +1,23 @@
+WriteHostedService Started
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:25:30
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:25:35
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:25:40
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:25:45
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:25:50
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:25:55
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:26:00
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:26:05
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:26:10
+WriteHostedService Started
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:33:26
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:33:31
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:33:36
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:33:41
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:33:46
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:33:51
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:33:56
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:34:01
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:34:06
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:34:11
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:34:16
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:34:21

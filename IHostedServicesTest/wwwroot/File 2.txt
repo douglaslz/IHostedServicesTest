@@ -1,0 +1,10 @@
+WriteHostedService Started
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:33:26
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:33:33
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:33:40
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:33:47
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:33:54
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:34:01
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:34:08
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:34:15
+WriteFileHostedServices: Doing some work at: 13/09/2019 12:34:22
