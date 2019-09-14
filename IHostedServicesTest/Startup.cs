@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using IHostedServicesTest.Models;
 using IHostedServicesTest.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,9 +28,16 @@ namespace IHostedServicesTest
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            //Added DBcontext
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
+
+            services.AddTransient<Microsoft.Extensions.Hosting.IHostedService, ConsumeScopedService>();
+
+
             //Regist the  Services 
-            services.AddTransient<IHostedService, WritetoFileIHostedServices>();
-            services.AddTransient<IHostedService, WritetoFileIHostedServices2>();
+            //services.AddTransient<IHostedService, WritetoFileIHostedServices>();
+            //services.AddTransient<IHostedService, WritetoFileIHostedServices2>();
 
             services.Configure<CookiePolicyOptions>(options =>
             {
